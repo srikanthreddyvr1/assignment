@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+//here i created a function name srikanth
+    function srikanth(name,age){
+
+        this.name=name;
+        this.age=age;
+
+    }
+ srikanth.prototype.language = "English";
+//here i created a costrutor function name reddy and assing propertys to function name srikanth
+    var reddy= new srikanth("friend",25);
+//here i uesd protype and added a property to function srikanth
+    reddy.place = "Frisco";
+    console.log(reddy.name);
+console.log(reddy.place);
+
+    function kanth(first,time,last){
+        this.first=first;
+        this.time=time;
+        this.last=reddy.age;
+    }
+kanth.prototype.place = "frisco";
+    var sri= new kanth("sanikommu",12);
+    kanth.fristname="sanikommu";
+    console.log(sri.first);
+    console.log(reddy.age);
+    console.log(sri.last);
+</script>
+
+</body>
+</html>

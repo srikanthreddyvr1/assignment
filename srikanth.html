@@ -5,5 +5,42 @@
 </head>
 <body>
 <p></p>
+/* closers:-keeps inside function alive and we can also call function structure  with in the fuction as closers and
+we can acess global and local variballes in the function */
+
+<script type="text/javascript">
+
+
+
+
+	function phaniukesh(){
+		//created an object name phani as global
+
+		var phani={
+			prop1:"phani",
+			prop2:"tummala"
+		};
+		//i am assigning phani object to info
+		var info=phani;
+       var srikanth="reddy";
+		function  some(){
+
+			//i ceated another function sone and assiging variables of phani inside some function
+           var sanikommu="frisco";
+           console.log(info);
+			console.log(phani.prop1);
+			console.log(srikanth);
+			console.log(sanikommu);
+		}
+		//calling function some
+		some();
+
+	}
+	//callinfg function pjaniukesh
+		phaniukesh();
+	
+
+
+</script>
 </body>
 </html>
